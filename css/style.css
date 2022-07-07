@@ -35,25 +35,24 @@ main {
     width: 100%;
 }
 
+.dimensioni {
+    width: 33%;
+    float: left;
+    width: calc(100% / 3 - 20px);
+}
+
 .componenti-team {
     background-color: black;
     height: 100px;
     text-align: left;
     margin-left: 5px;
-
 }
 
 h3 {
     color: white;
     font-family: 'Days One';
-    padding-top: 5px;
+    padding-top: 10px;
     margin-bottom: 5px;
-}
-
-.dimensioni {
-    width: 33%;
-    float: left;
-    width: calc(100% / 3 - 20px);
 }
 
 .float-left {
@@ -61,9 +60,8 @@ h3 {
     border-radius: 50%;
     border: 1px solid white;
     height: 100px;
+    margin-right: 20px;
 }
-
-
 
 .professione {
     color: white;
