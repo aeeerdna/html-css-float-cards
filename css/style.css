@@ -7,15 +7,69 @@
 
 body {
     background-color: white;
+    font-family: 'Days One', sans-serif;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 /* /IMPOSTAZIONE PAGINA */
 
 /* TITOLO */
+h1 {
+    color: rgb(241, 63, 226);
+    font-family: 'Days One';
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+#intro-team {
+    margin-bottom: 40px;
+}
 
 /* /TITOLO */
 
 /* PRESENTAZIONE TEAM */
+main {
+    max-width: 1200px;
+}
+
+.componenti-team {
+    background-color: black;
+    height: 100px;
+    text-align: left;
+    margin-left: 5px;
+}
+
+h3 {
+    color: white;
+    font-family: 'Days One';
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+
+.clearfix {
+    width: 380px;
+}
+
+.float-left {
+    float: left;
+    border-radius: 50%;
+    border: 1px solid white;
+    height: 100px;
+}
+
+.professione {
+    color: white;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+
+.indirizzo-email {
+    color: rgb(7, 158, 239);
+    text-decoration: underline;
+    font-size: 15px;
+}
 
 /* /PRESENTAZIONE TEAM */
