@@ -6,15 +6,22 @@
 }
 
 body {
-    background-color: white;
     font-family: 'Days One', sans-serif;
     font-family: 'Roboto', sans-serif;
-    text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
 }
 
 /* /IMPOSTAZIONE PAGINA */
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
 
 /* TITOLO */
 h1 {
@@ -24,6 +31,11 @@ h1 {
     margin-bottom: 50px;
 }
 
+h1,
+.intro-team {
+    text-align: center;
+}
+
 #intro-team {
     margin-bottom: 40px;
 }
@@ -31,52 +43,36 @@ h1 {
 /* /TITOLO */
 
 /* PRESENTAZIONE TEAM */
-main {
-    width: 100%;
-}
 
-.clearfix {
-    overflow: auto;
-    content: "";
-    display: table;
-
+.contenitore {
+    margin-top: 20px;
 }
 
 .componenti-team {
     background-color: black;
-    height: 100px;
-    text-align: left;
-    margin-left: 5px;
-    width: 33%;
+    color: white;
     float: left;
     width: calc(100% / 3 - 20px);
+    margin: 8px 8px;
+    box-shadow: 1px 1px 10px rgb(108, 105, 105);
 }
 
-.float-left {
+.componenti-team .presentazione {
     float: left;
+    padding: 20px;
+    line-height: 1.3rem;
+}
+
+.componenti-team img {
+    float: left;
+    width: 100px;
     border-radius: 50%;
     border: 1px solid white;
-    height: 100px;
-    margin-right: 20px;
 }
 
-h3 {
-    color: white;
-    font-family: 'Days One';
-    padding-top: 10px;
-    margin-bottom: 5px;
-}
-
-.professione {
-    color: white;
-    padding-bottom: 5px;
-    font-size: 15px;
-}
-
-.indirizzo-email {
+.componenti-team .indirizzo-email {
     color: rgb(7, 158, 239);
-    text-decoration: underline;
-    font-size: 15px;
+    text-decoration: none;
 }
 
 /* /PRESENTAZIONE TEAM */
